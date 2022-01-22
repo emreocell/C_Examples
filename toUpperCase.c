@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int inCtoUpperCase()
+int main()
 {
     char metin[100];
     char harf;
