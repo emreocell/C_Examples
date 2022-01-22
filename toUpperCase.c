@@ -8,7 +8,7 @@ int inCtoUpperCase()
     int n = 0;
 
     printf("\n Bir metin giriniz : ");
-    scanf("%[^\n]",metin);// bunu internetten buldum birden fazla string almak için bu şekil yazılıyormuş
+    scanf("%[^\n]",metin);// birden fazla string (' ' karakterinden sonraki stringler) almak için
 
     if( metin[0] >= 'a' && metin[0] <= 'z' )
         metin[0] = metin[0] - 32; //ilk cümleyi ayrı kontorl ediyoruz çünkü ilk cümleden önce boşluk olmuyor
