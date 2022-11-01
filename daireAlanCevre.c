@@ -1,4 +1,4 @@
-/*#include<stdio.h>
+#include<stdio.h>
 
 const float PI=3.14;
 
@@ -23,4 +23,4 @@ int main(){
     cevre= daire(PI,cap,alan,cevre,++sayac);
     printf("\nDairenin cevresi = %.3f",cevre);
     return 0;
-}*/
+}
